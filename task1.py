@@ -30,7 +30,7 @@ def SubmitRegistrationForm():
         messagebox.showerror("Error", "Please enter a valid Phone Number")
         return
 
-    # Upon Successful Validation, Display the details
+    # Upon Successful Validation, display all the entered details
     messagebox.showinfo("Success", "!!Registration Completed!!\nFirst Name: {}\nLast Name: {}\nEmail: {}\nAge: {}\nGender: {}\nPhone Number: {}\nAddress: {}".format(firstname, lastname, email, age, gender, phonenum, address))
 
 # Creating the Main Window
